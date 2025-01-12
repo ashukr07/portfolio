@@ -1,8 +1,30 @@
+import { motion } from "framer-motion";
 
-function Experience() {
+import {experiences} from "../data/constant.js"
+import {styles} from "../styles.js"
+
+import ExperienceCard from "../components/ExperienceCard.jsx";
+
+
+const Experience = () => {
   return (
-    <div id="experience">Experience</div>
-  )
-}
+    <>
+      <motion.div >
+        <h2 className={styles.sectionHeadText}>
+          Work Experience.
+        </h2>
+      </motion.div>
 
-export default Experience
+        <div className="flex flex-col w-full md:w-3/4 p-5 mx-auto overflow-hidden">
+
+        {experiences.map((experience, index) => (
+          <ExperienceCard key={index} {...experience} />
+        ))}
+      </div>
+
+      
+    </>
+  );
+};
+
+export default Experience;
