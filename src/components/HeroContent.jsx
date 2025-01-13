@@ -10,7 +10,7 @@ export function HeroContent() {
         Hi, I&apos;m <span className="text-primary">Ashutosh</span>
       </h1>
       <p className="text-xl mb-6">
-      I build full-stack web applications and enjoy coding and problem-solving.
+      I build full-stack web applications with a focus on functionality and simplicity.
       </p>
       <div className="flex justify-center md:justify-start space-x-4 mb-6">
         <Link
