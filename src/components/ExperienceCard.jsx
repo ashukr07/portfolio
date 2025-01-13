@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 function ExperienceCard({ title, company_name, icon, date, points }) {
   return (
     <motion.div
-      className="card bg-neutral shadow-xl border border-red-600  w-full mb-6"
+      className="card bg-neutral shadow-xl border-2 border-primary  w-full mb-6"
       whileHover={{ scale: 1.02 }}
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}

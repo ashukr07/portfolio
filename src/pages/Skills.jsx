@@ -12,7 +12,7 @@ const Skills = () => {
         {skills.map((category, index) => (
           <motion.div
             key={index}
-            className="bg-neutral p-6 rounded-lg shadow-lg group hover:shadow-[0px_0px_20px_4px] hover:shadow-accent transition-all duration-300"
+            className="bg-neutral p-6 rounded-lg shadow-lg group hover:shadow-[0px_0px_20px_4px] hover:shadow-accent transition-all duration-300 mx-4"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -23,7 +23,7 @@ const Skills = () => {
               {category.skills.map((skill, i) => (
                 <motion.div
                   key={i}
-                  className="flex flex-col items-center text-center gap-2"
+                  className="flex flex-col items-center text-center gap-4 "
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 200 }}
                 >

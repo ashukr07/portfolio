@@ -5,7 +5,7 @@ import { HeroContent } from "../components/HeroContent"
 
 function Hero() {
   return (
-    <section className="hero min-h-screen bg-base-200 relative overflow-hidden" id="hero">
+    <section className="hero min-h-screen bg-base-200 relative overflow-hidden" id="home">
       <BackgroundAnimation />
       <div className="hero-content flex-col lg:flex-row-reverse">
         <AnimatedImage />

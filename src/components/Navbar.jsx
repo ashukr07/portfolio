@@ -8,11 +8,11 @@ function Navbar() {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="sticky top-0 z-10 backdrop-blur-lg bg-neutral bg-opacity-50 shadow-md">
+    <nav className="sticky top-0 z-50 backdrop-blur-lg bg-neutral bg-opacity-50 shadow-md">
       <div className="navbar">
         <div className="navbar-start">
-          <Link
-            to="/"
+          <a
+            href="#home"
             className="flex items-center gap-2"
             onClick={() => setActive("")}
           >
@@ -21,7 +21,7 @@ function Navbar() {
               Ashutosh&nbsp;
               <span className="sm:block hidden">Kumar Roy</span>
             </p>
-          </Link>
+          </a>
         </div>
 
         <div className="navbar-end flex flex-row items-center pr-3 gap-6 md:flex justify-end">

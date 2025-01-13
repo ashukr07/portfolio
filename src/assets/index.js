@@ -1,3 +1,4 @@
+//importing icons for work exp
 import citi from "./company/Citi-Logo.png"
 import currents from "./company/currents-logo.png"
 import ever from "./company/ever-logo.jpg"
@@ -44,6 +45,29 @@ import docker from "./tech/docker.png";
 import vscode from "./tech/vscode.png";
 import postman from "./tech/postman.png";
 import figma from "./tech/figma.png";
+import c from "./tech/c.png"
+import cpp from "./tech/c++.png"
+import clerk from "./tech/clerk.jpg"
+import cloudinary from "./tech/cloudinary.png"
+import framerMotion from "./tech/framer-motion.jpg"
+import reactNative from "./tech/react-native.png"
+import redis from "./tech/redis.png"
+import socketio from "./tech/socket.io.png"
+
+
+// Importing project images
+
+import agePredictor from "./projects/age-predictor.png"
+import chatApp from "./projects/chat-app.png"
+import blogWeb from "./projects/blog-website.png"
+import imdbReview from "./projects/imdb-review.png"
+import selfDriving from "./projects/self-driving-car.png"
+import socially from "./projects/socially.png"
+import whacAMole from "./projects/whac-a-mole.png"
+import stickyNotes from "./projects/sticky-notes.png"
+import eCommerce from "./projects/ecommerce.png"
+
+
 
 // Exporting all icons as a module
 export {
@@ -51,6 +75,8 @@ export {
     currents,
     ever,
     pragyan,
+
+
   reactjs,
   typescript,
   redux,
@@ -88,4 +114,24 @@ export {
   vscode,
   postman,
   figma,
+  reactNative,
+  redis,
+  socketio,
+  cloudinary,
+  clerk,
+  framerMotion,
+  c,
+  cpp,
+  
+  
+  agePredictor,
+  chatApp,
+  blogWeb,
+  imdbReview,
+  selfDriving,
+  socially,
+  whacAMole,
+  stickyNotes,
+  eCommerce
+  
 };
