@@ -1,4 +1,7 @@
 import { Toaster } from "react-hot-toast";
+
+import { Analytics } from "@vercel/analytics/react"
+
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -28,6 +31,7 @@ function App() {
         </div>
       </div>
       <Toaster />
+      <Analytics />
     </BrowserRouter>
   );
 }

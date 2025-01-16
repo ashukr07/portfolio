@@ -344,7 +344,7 @@ const projects = [
     links: {
       github: "https://github.com/ashukr07/Blog-Website",
     },
-    featured: false,
+    featured: true,
     image: blogWeb,
   },
   {
