@@ -86,6 +86,8 @@ const socials = {
 
   facebook: "https://www.facebook.com/profile.php?id=100073451861040",
 
+  linktree: "https://linktr.ee/ashutoshkr03",
+
   mail: "ashutoshroy3434@gmail.com",
 };
 
