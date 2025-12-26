@@ -49,6 +49,9 @@ import {
   blogWeb,
   whacAMole,
   agePredictor,
+  evChargeHub,
+
+
   reactNative,
   cloudinary,
   clerk,
@@ -73,7 +76,7 @@ const navLinks = [
   },
 ];
 const resumeLink =
-  "https://drive.google.com/file/d/1igBDEAtXqC1fzuMwSHGR3UpIrJ6kEzm6/view?usp=sharing";
+  "https://drive.google.com/file/d/1y-nZquNPKVeV-dUslBhmziaedY55Sm_4/view?usp=sharing";
 
 const socials = {
   linkedin: "https://linkedin.com/in/ashutoshroy03",
@@ -92,13 +95,26 @@ const socials = {
 };
 
 const about =
-  "I'm a final-year B.Tech student in Electrical and Electronics Engineering at NIT Trichy with experience in JavaScript, TypeScript, Python, C++, and frameworks like React, Node.js, and Next.js. I’m currently learning AI, ML, and cloud computing and serve as the Head of DevOps for Currents, NIT Trichy.";
+  "I’m an EEE graduate from NIT Trichy and a Technology Analyst at Citicorp, working in the Data Engineering space. I work with Spark, PySpark, Hive, and SQL on batch data pipelines and have experience building full-stack web applications using React and Node.js. I enjoy competitive programming and exploring machine learning, cloud, and embedded systems through projects and continuous learning.";
 
 const experiences = [
   {
-    title: "PBWMT Intern",
+    title: "Technology Analyst",
     company_name: "Citi",
-    icon: citi, 
+    icon: citi,
+    iconBg: "#383E56",
+    date: "July 2025 - Present",
+    points: [
+      "Working in the Data Engineering team on batch data pipelines using Spark, PySpark, Hive, SQL, and Hadoop.",
+      "Using enterprise ingestion, file extraction, and small file merge frameworks to process and optimize HDFS and Hive datasets.",
+      "Supporting production data workflows through data standardization and Hive DDL deployments using Shell scripting.",
+    ],
+  },
+
+  {
+    title: "Summer Technology Analyst Intern",
+    company_name: "Citi",
+    icon: citi,
     iconBg: "#383E56",
     date: "June 2024 - July 2024",
     points: [
@@ -110,7 +126,7 @@ const experiences = [
   {
     title: "Head of DevOps",
     company_name: "Currents (EEE Dept Symposium)",
-    icon: currents, 
+    icon: currents,
     iconBg: "#E6DEDD",
     date: "August 2024 - Present",
     points: [
@@ -122,7 +138,7 @@ const experiences = [
   {
     title: "Autonomous System Engineer",
     company_name: "Ever (Electric Vehicle Club, NIT Trichy)",
-    icon: ever, 
+    icon: ever,
     iconBg: "#383E56",
     date: "January 2024 - Present",
     points: [
@@ -133,7 +149,7 @@ const experiences = [
   {
     title: "Manager, Workshops",
     company_name: "Pragyan (International Techno-Managerial Fest, NIT Trichy)",
-    icon: pragyan, 
+    icon: pragyan,
     iconBg: "#E6DEDD",
     date: "October 2022 - Present",
     points: [
@@ -142,7 +158,6 @@ const experiences = [
     ],
   },
 ];
-
 
 const skills = [
   {
@@ -208,12 +223,36 @@ const skills = [
       { name: "Clerk", icon: clerk },
       { name: "C", icon: c },
       { name: "C++", icon: cpp },
-      
     ],
   },
 ];
 
 const projects = [
+  {
+  id: 10,
+  title: "EV Charge Hub",
+  date: "May 2025",
+  description:
+    "A full-stack EV charging slot booking platform with role-based access, secure authentication, payments, and analytics.",
+  technologies: [
+    "React",
+    "Zustand",
+    "Tailwind CSS",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "JWT",
+    "Stripe",
+    "Nodemailer",
+    "Recharts",
+  ],
+  links: {
+    github: "https://github.com/ashukr07/ev-charge-hub", // replace if different
+    live: "https://ev-charge-hub.onrender.com/",        // replace if different
+  },
+  featured: true,
+  image: evChargeHub,
+},
   {
     id: 1,
     title: "Chat Application",
@@ -296,7 +335,7 @@ const projects = [
     ],
     links: {
       github: "https://github.com/ashukr07/ecommerce-web",
-      live: "https://ecommerce-web-xhf1.onrender.com/"
+      live: "https://ecommerce-web-xhf1.onrender.com/",
     },
     featured: true,
     image: eCommerce,
@@ -312,15 +351,14 @@ const projects = [
       github: "https://github.com/ashukr07/Sticky-Notes",
       live: "https://sticky-notes-inky.vercel.app/",
     },
-    featured: true,
-    image: stickyNotes
+    featured: false,
+    image: stickyNotes,
   },
   {
     id: 6,
     title: "IMDb Review Rating Predictor",
     date: "April 2023",
-    description:
-      "Used an RNN to predict movie ratings based on reviews.",
+    description: "Used an RNN to predict movie ratings based on reviews.",
     technologies: ["Python", "Pandas", "NumPy", "Keras", "Google Colab"],
     links: {
       github: "https://github.com/ashukr07/IMDb-Review-Rating-Predictor",
@@ -353,12 +391,11 @@ const projects = [
     id: 8,
     title: "Whac-a-Mole",
     date: "November 2023",
-    description:
-      "A fun game where players hit moles and avoid pitcher plants.",
+    description: "A fun game where players hit moles and avoid pitcher plants.",
     technologies: ["HTML", "CSS", "JavaScript"],
     links: {
       github: "https://github.com/ashukr07/Whac-A-Mole",
-      live: "https://ashukr07.github.io/Whac-A-Mole/"
+      live: "https://ashukr07.github.io/Whac-A-Mole/",
     },
     featured: false,
     image: whacAMole,
@@ -377,7 +414,5 @@ const projects = [
     image: agePredictor,
   },
 ];
-
-  
 
 export { navLinks, resumeLink, about, socials, experiences, skills, projects };

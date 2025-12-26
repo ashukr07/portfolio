@@ -66,6 +66,7 @@ import socially from "./projects/socially.png"
 import whacAMole from "./projects/whac-a-mole.png"
 import stickyNotes from "./projects/sticky-notes.png"
 import eCommerce from "./projects/ecommerce.png"
+import evChargeHub from "./projects/ev-charge-hub.png"
 
 
 
@@ -132,6 +133,7 @@ export {
   socially,
   whacAMole,
   stickyNotes,
-  eCommerce
+  eCommerce,
+  evChargeHub,
   
 };
